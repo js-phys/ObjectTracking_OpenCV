@@ -1,6 +1,6 @@
 """
-run once to accumulate background, i.e. non-moving objects
-uncomment imwrite in Line 60 to save background as backg.jpg
+Run once to accumulate background of a video, i.e. an image with non-moving objects is generated. Every moving object will vanish.
+Uncomment imwrite command in Line 53 to save background as backg.jpg
 """
 
 import numpy as np
